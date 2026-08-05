@@ -1,0 +1,83 @@
+
+.Logo {
+    background-color: #f2f2f2;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+.div-container {
+    display: flex;
+    gap: 75%;
+}
+.div-container figure {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 100%;
+}
+#logo {
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.image-container figure {
+    display: inline-block;
+    gap: 20px;
+    margin:10px;
+    text-align: center;
+    margin-left: 6cap;
+}
+
+.About {
+    background-color:rgb(154, 193, 229);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+}
+.Media{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.LandscapeVideo {
+    background-color: aliceblue;
+    width: 620; height: 240;
+    border: 2px solid #ccc;
+    border-radius: 10px;;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.Myimage {
+    border-radius: 10px;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+}
+.Information table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color:bisque; ;
+}
+.Information form {
+    margin-top: 20px;
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 10px;
+}
+footer {
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
